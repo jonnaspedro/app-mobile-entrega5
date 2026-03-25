@@ -23,5 +23,13 @@ Praticar conceitos de desenvolvimento mobile e criação de interfaces.
 - npm install @react-navigation/native-stack
 - expo install @expo/vector-icons
 - npm install --save react-native-screens react-native-safe-area-context
-- npx expo start --tunnel
 - npm install axios
+- npx expo start
+
+## IPV4
+- ifconfig
+
+## Servidor da API 
+
+- json-server --watch db.json 
+- npx json-server --watch db.json --port 3000
