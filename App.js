@@ -54,7 +54,6 @@ export default function App() {
             ),
           })}
         />
-
         <Stack.Screen 
           name="CadastroContato" 
           component={CadastroContatoScreen} 
