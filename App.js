@@ -1,9 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
-
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
 import {
   TouchableOpacity,
   Text
@@ -17,6 +15,7 @@ import EditarContatoScreen from './screens/EditarContatoScreen';
 import EsqueceuSenhaScreen from './screens/EsqueceuSenhaScreen';
 
 const Stack = createNativeStackNavigator();
+
 
 export default function App() {
 
